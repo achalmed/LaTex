@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Introducción}{1}{}%
+\contentsline {section}{\numberline {2}Bases}{1}{}%
+\contentsline {subsection}{\numberline {2.1}Productos notables}{1}{}%
+\contentsline {section}{\numberline {3}Cálculo diferencial}{1}{}%
+\contentsline {subsection}{\numberline {3.1}Razón de cambio y límites}{2}{}%
+\contentsline {subsection}{\numberline {3.2}Límites laterales y límites al infinito}{2}{}%
+\contentsline {subsection}{\numberline {3.3}Continuidad}{2}{}%

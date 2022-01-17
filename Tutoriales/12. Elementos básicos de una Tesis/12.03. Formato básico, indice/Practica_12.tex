@@ -1,0 +1,30 @@
+\documentclass[12pt,oneside]{book}
+%
+\input{codigofuente/preambulo}
+%
+\makeatletter
+\let\ps@plain\ps@empty
+\makeatother
+%
+\pagestyle{fancy} %Estilo de la página
+\fancyfoot{}
+\fancyhead{}
+\fancyhead[C]{\scriptsize \leftmark}
+\fancyfoot[C]{\scriptsize \rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\begin{document}
+\frontmatter
+\include{codigofuente/portada}
+\include{codigofuente/agradecimientos}
+\renewcommand{\contentsname}{Contenido}
+\tableofcontents
+
+\mainmatter 
+\include{codigofuente/capitulo1}
+\include{codigofuente/capitulo2}
+\include{codigofuente/capitulo3}
+\include{codigofuente/capitulo4}
+
+\end{document}

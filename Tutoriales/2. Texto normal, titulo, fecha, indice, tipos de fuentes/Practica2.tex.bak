@@ -1,0 +1,119 @@
+\documentclass[12pt]{article}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preámbulo
+%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+%%
+
+%\parindent = 1cm Este comando configura las sangrías de los capítulos, parrafos y títulos%
+
+\begin{document}
+
+\title{Practica 2. \\ Texto normal, párrafos y alineación.}
+\author{Edison Achalma}
+\date{march 12 2021}
+\maketitle
+%Después de tener sección y subsecciones ya se puede generar tabla de contenidos%
+\tableofcontents
+%\tableofcontents después de insertar este comando solo se compila unas tres veces para que el tabla de cotenidos aparesca de forma automática%
+
+\section{Tipos y tamaños de fuente}
+
+Iniciamos con la segunda práctica de este tutorial, colocando el título autor y día. Esta es la primera sección donde conoceremos algunos tipos de letra, así como diferentes tamaños de letras que podemos usar.
+
+\subsection{Tipos de letra}
+
+\begin{itemize}
+\item Tipo de letra \textbf{negrita}
+\item Tipo de letra \textit{itálica}
+\item Tipo de letra \textrm{romana}
+\item Tipo de letra \textsf{sans serif}
+\item Tipo de letra \texttt{mono espaciada}
+\item Tipo de letra \textsl{inclinada}
+\item Tipo de letra \textsc{versalitas}
+\end{itemize}
+
+\newpage %Este comando hace que el párrafo siguiente pase al siguiente página%
+
+\subsection{Tamaños de letra}
+
+\begin{itemize}
+\item {\tiny Tamaño} de letra
+\item {\scriptsize Tamaño} de letra
+\item {\footnotesize Tamaño} de letra
+\item {\small Tamaño} de letra
+\item {\normalsize Tamaño} de letra
+\item {\large Tamaño} de letra
+\item {\Large Tamaño} de letra
+\item {\LARGE Tamaño} de letra
+\item {\huge Tamaño} de letra
+\item {\huge Tamaño} de letra
+\end{itemize}
+
+\section{Párrafos, sangría y saltos de línea.}
+
+\subsection{Sangría}
+
+\noindent %Este comando quita la sangría% Esta es la primera sección donde conoceremos algunos tipos de letra, así como diferentes tamaños de letras que podemos usar.
+Y ahora queremos también decidir modificar la sangría en el documento, aquí sí iniciamos con sangría.
+
+\noindent Pero esta otra línea queremos que NO tenga sangría
+
+Pero esta otra línea queremos que SÍ tenga sangría
+
+\subsection{Salto de línea y nueva página}
+
+Ahora queremos también decidir modificar la sangría en el documento, aquí sí iniciamos con sangría. \\ 
+% \\ Este comando hace saltar al siguiente párrafo, pero el párrafo comienza sin sangría.%
+Pero esta otra línea que no tenga sangría.
+\par 
+%\par Este comando hace saltar al siguiente párrafo, además el párrafo comienza con sangría.%
+Esta línea queremos que sí tenga sangría y además un espacio mayor. \\[0.5cm] 
+%\\[0.5cm] Este comando hace saltar al siguiente párrafo, pero el párrafo comienza sin sangría. Además agrega un espacio de Xcm o Ymm entre los dos párrafos%
+Pero esta otra línea queremos que no tenga sangría.
+
+\subsection{Alineación de párrafos}
+%Aquí están los comandos para alinear párrafos, textos, figuras o tablas.%
+
+\begin{flushleft}
+Texto a la izquierda
+\end{flushleft}
+
+\begin{center}
+Texto centrado
+\end{center}
+
+\begin{flushright}
+Texto a la derecha
+\end{flushright}
+
+\subsection{Comillas y puntos suspensivos}
+
+Este es un ejemplo: “para las comillas”, 'simples' y las comillas “dobles”. \\
+Y también los puntos suspensivos \dots %\dots Este comando genera los puntos suspensivos%
+
+\subsection{Espaciado horizontal}
+\noindent Inicio \, fin \\[0.2cm]
+%\, Este comandno genera un espacio entre palabras%
+Inicio \quad fin \\[0.2cm]
+%\quad Este comando genera un espacio un poco mas entre letras%
+Inicio \qquad fin \\[0.2cm]
+Inicio \hspace{3cm} fin \\[0.2cm]
+%\hspace{3cm} Comando para espaciado entre letras de forma personalizada%
+Inicio \hfill fin \\[0.2cm]
+%\hfill Comando que separa las palabras de un extremo a otro de forma horizontal%
+\subsection{Líneas de relleno}
+\noindent Inicio \hfill fin \\[0.5cm]
+Inicio \hrulefill fin \\[0.5cm]
+%\hrulefill comando que rellena con línea entre palabras de un extremo a otro%
+Inicio \dotfill fin \\[0.5cm]
+%\hrulefill comando que rellena con puntos entre palabras de un extremo a otro%
+
+% despues de tner las secciones y subsecciones se procedió a generar el tablade contenidos%
+
+%Este formato también puede sirver para un libro, para esto solo se debe cambiar el tipo de documento al principio del docuemto y luego antes de la sección se agrega un capítulo con el siguiente comando \chapter{Capítulo 1} por ejemplo.%
+
+\end{document}

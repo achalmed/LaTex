@@ -1,0 +1,130 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Preámbulo
+%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\parindent=0cm
+%%
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+%Los dos paquetes de arriba sirven para colocar fórmulas, símbolos y ecuaciones que se enumeran y las que no se enumeran%
+
+
+\begin{document}
+\title{Prácica 3. \\ Texto en modo matemático}
+\author{Edison Achalma}
+\date{13 de marzo de 2021}
+\maketitle
+\tableofcontents
+\section{Texto en modo matemático}
+Básicamente existen dos formas de colocar texto en modo matemático en \LaTeX, una de ella es colocar fórmulas junto al texto, y la otra es colocarla de forma independiente.
+
+\subsection{Fórmulas junto al texto}
+\textbf{Cuadrado de un binomio}. Sea. $ (a+b)^{2} = (a+b)(a+b) $ donde $ a $ y $ b $ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto $ (a+b)^{2} =a^{2}+2ab+b^{2}$.
+% $ $ Para poner las fórmulas dentro del texto se abre y cierra el símbolo dólar y al medio de los simboloas se ponde las fórmulas%
+
+\subsection{Fórmulas independientes}
+\textbf{Cuadrado de un binomio}. Sea. 
+\[
+(a+b)^{2} = (a+b)(a+b)
+\]
+donde $ a $ y $ b $ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto 
+\[
+(a+b)^{2} =a^{2}+2ab+b^{2}
+\]
+% \[  \] Es comando hace que la fórmula se escriba fuera del texto o de forma independiente ademas se centra la fórmula. OJO las fórmulas van sin el dolar%
+
+%Ahora enumeraremos las ecuaciones con el siguiente comando, cuando se copia las formulas dentro del comando \begin{equation} la ecuación se enumera%
+
+\begin{equation}\label{binomio}
+(a+b)^{2} =a^{2}+2ab+b^{2}
+\end{equation}
+
+\subsection{Numeración de fórmulas y referencias}
+El comando para numerar la fórmula es el siguiente
+\begin{equation}\label{binomio2}
+(x+y)^{2} =x^{2}+2xy+y^{2}
+\end{equation}
+%Para hacer referencia a las ecuaniones se agrega el siguiente comando \label{dentro de este corchete se escribe cualquier nombre de la ecuación}, quendano así: \begin{ecuation}\label{...}%
+Ahora usando la ecuación \ref{binomio} y \ref{binomio2} \\ 
+%\ref{.} Este comando hace referencia a las ecuaciones nombradas%
+Ahora usando la ecuación \eqref{binomio} y \eqref{binomio2}
+%\eqref{.} Este comando hace referencia a las ecuaciones nombradas pero los números van en paréntesis%
+
+\section{Alinear ecuaciones con el comando align}
+%En esta sección las ecuaciones no esta alineadas%
+\begin{align}
+x=a+b \\
+y=2a+b \\
+z=3a+2b 
+\end{align}
+%Se usa el símbolo de amperson (&) antes del simbolo que queremos  este alineado%
+\begin{align}
+x &= a + b \\
+y &= 2a + b \\
+z &= 3a + 2b 
+\end{align}
+%Se observa de uqe las escuaciones van enumeradas, esto sucede porque ya sigue el sistema de enumeración que se hizo antes. Si queremos que no se enumere solo se agrega asteriscos en el comando para que obvie la enumeración%
+\begin{align*}
+x &= a + b \\
+y &= 2a + b \\
+z &= 3a + 2b 
+\end{align*}
+%Esto es para alinear dos sistemas de ecuaciones en el mismo fila%
+\begin{align}
+x &= a + b   & x &= a + b\\
+y &= 2a + b  & y &= 2a + b\\
+z &= 3a + 2b & z &= 3a + 2b
+\end{align}
+%En el siguiente sistema de ecuación no se va enumerar una de la ecuaciones con el comando \nonumber%
+\begin{align}
+x &= a + b \nonumber \\
+y &= 2a + b \\
+z &= 3a + 2b 
+\end{align}
+%Por ejemplo esto puede servir para enumerar un sistema de ecuación%
+\begin{align}
+x &= a + b \nonumber \\
+y &= 2a + b \\
+z &= 3a + 2b \nonumber
+\end{align}
+
+\begin{align}
+x &= a + b \nonumber \\
+  &= 2a + b \\
+  &= 3a + 2b \nonumber
+\end{align}
+
+\section{Fracciones}
+%La fración también va entre el símbolo de dolar%
+\begin{itemize}
+\item Junto a texto $ \frac{x}{y} $
+\item Junto a texto $ \dfrac{x}{y} $
+\item De forma independiente \[ \frac{x}{y} \]
+\end{itemize}
+
+\section{Potencias, subíndices, superíndices}
+\begin{itemize}
+\item $ x^{6} $
+\item $ z_{3} $
+\item $ a^{x^{2}} $ 
+\end{itemize}
+
+\section{Raíces}
+\begin{itemize}
+\item Junto a texto $ \sqrt{a+b} $
+\item Junto a texto $ \sqrt[n]{a+b} $
+\item De forma independiente \[ \sqrt[n]{a+b} \]
+\end{itemize}
+
+\section{Coeficientes binomiales}
+\begin{itemize}
+\item Junto a texto $ \binom{n}{k} $
+\item De forma independiente \[ \binom{n}{k} \]
+\end{itemize}
+
+
+
+\end{document}

@@ -1,0 +1,224 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\datalist[entry]{none/global//global/global}
+  \entry{patron_use_2016}{article}{}
+    \name{author}{7}{}{%
+      {{hash=PD}{%
+         family={Patron},
+         familyi={P\bibinitperiod},
+         given={Damiano},
+         giveni={D\bibinitperiod},
+      }}%
+      {{hash=MW}{%
+         family={Mongan},
+         familyi={M\bibinitperiod},
+         given={William},
+         giveni={W\bibinitperiod},
+      }}%
+      {{hash=KTP}{%
+         family={Kurzweg},
+         familyi={K\bibinitperiod},
+         given={Timothy\bibnamedelima P.},
+         giveni={T\bibinitperiod\bibinitdelim P\bibinitperiod},
+      }}%
+      {{hash=FA}{%
+         family={Fontecchio},
+         familyi={F\bibinitperiod},
+         given={Adam},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=DG}{%
+         family={Dion},
+         familyi={D\bibinitperiod},
+         given={Genevieve},
+         giveni={G\bibinitperiod},
+      }}%
+      {{hash=AEK}{%
+         family={Anday},
+         familyi={A\bibinitperiod},
+         given={Endla\bibnamedelima K.},
+         giveni={E\bibinitperiod\bibinitdelim K\bibinitperiod},
+      }}%
+      {{hash=DKR}{%
+         family={Dandekar},
+         familyi={D\bibinitperiod},
+         given={Kapil\bibnamedelima R.},
+         giveni={K\bibinitperiod\bibinitdelim R\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{PD+1}
+    \strng{fullhash}{PDMWKTPFADGAEKDKR1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{number}{6}
+    \field{pages}{1047\bibrangedash 1057}
+    \field{title}{On the use of knitted antennas and inductively coupled {RFID}
+  tags for wearable applications}
+    \field{volume}{10}
+    \verb{file}
+    \verb Snapshot:C\:\\Users\\SameirDeif\\Zotero\\storage\\GU2MIYL2\\7458913.h
+    \verb tml:text/html
+    \endverb
+    \field{journaltitle}{{IEEE} transactions on biomedical circuits and
+  systems}
+    \field{year}{2016}
+  \endentry
+
+  \entry{zarifi_microwave_2016}{article}{}
+    \name{author}{4}{}{%
+      {{hash=ZMH}{%
+         family={Zarifi},
+         familyi={Z\bibinitperiod},
+         given={Mohammad\bibnamedelima Hossein},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=RM}{%
+         family={Rahimi},
+         familyi={R\bibinitperiod},
+         given={Mehrnaz},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Daneshmand},
+         familyi={D\bibinitperiod},
+         given={Mojgan},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=TT}{%
+         family={Thundat},
+         familyi={T\bibinitperiod},
+         given={Thomas},
+         giveni={T\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZMH+2}
+    \strng{fullhash}{ZMHRMDMTT1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{pages}{632\bibrangedash 639}
+    \field{title}{Microwave ring resonator-based non-contact interface sensor
+  for oil sands applications}
+    \field{volume}{224}
+    \verb{file}
+    \verb Full Text:C\:\\Users\\SameirDeif\\Zotero\\storage\\L6R5EC5J\\S0925400
+    \verb 51530527X.html:text/html
+    \endverb
+    \field{journaltitle}{Sensors and Actuators B: Chemical}
+    \field{year}{2016}
+  \endentry
+
+  \entry{zarifi_time-resolved_2015}{article}{}
+    \name{author}{8}{}{%
+      {{hash=ZMH}{%
+         family={Zarifi},
+         familyi={Z\bibinitperiod},
+         given={M.\bibnamedelima H.},
+         giveni={M\bibinitperiod\bibinitdelim H\bibinitperiod},
+      }}%
+      {{hash=MA}{%
+         family={Mohammadpour},
+         familyi={M\bibinitperiod},
+         given={A.},
+         giveni={A\bibinitperiod},
+      }}%
+      {{hash=FS}{%
+         family={Farsinezhad},
+         familyi={F\bibinitperiod},
+         given={S.},
+         giveni={S\bibinitperiod},
+      }}%
+      {{hash=WBD}{%
+         family={Wiltshire},
+         familyi={W\bibinitperiod},
+         given={B.\bibnamedelima D.},
+         giveni={B\bibinitperiod\bibinitdelim D\bibinitperiod},
+      }}%
+      {{hash=NM}{%
+         family={Nosrati},
+         familyi={N\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=AAM}{%
+         family={Askar},
+         familyi={A\bibinitperiod},
+         given={A.\bibnamedelima M.},
+         giveni={A\bibinitperiod\bibinitdelim M\bibinitperiod},
+      }}%
+      {{hash=DM}{%
+         family={Daneshmand},
+         familyi={D\bibinitperiod},
+         given={M.},
+         giveni={M\bibinitperiod},
+      }}%
+      {{hash=SK}{%
+         family={Shankar},
+         familyi={S\bibinitperiod},
+         given={K.},
+         giveni={K\bibinitperiod},
+      }}%
+    }
+    \strng{namehash}{ZMH+1}
+    \strng{fullhash}{ZMHMAFSWBDNMAAMDMSK1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{shorttitle}
+    \field{number}{25}
+    \field{pages}{14358\bibrangedash 14365}
+    \field{shorttitle}{Time-resolved microwave photoconductivity ({TRMC}) using
+  planar microwave resonators}
+    \field{title}{Time-resolved microwave photoconductivity ({TRMC}) using
+  planar microwave resonators: Application to the study of long-lived charge
+  pairs in photoexcited titania nanotube arrays}
+    \field{volume}{119}
+    \verb{file}
+    \verb Full Text:C\:\\Users\\SameirDeif\\Zotero\\storage\\GALIEL54\\acs.jpcc
+    \verb .html:text/html;Snapshot:C\:\\Users\\SameirDeif\\Zotero\\storage\\WVA
+    \verb A6H9A\\acs.jpcc.html:text/html
+    \endverb
+    \field{journaltitle}{The Journal of Physical Chemistry C}
+    \field{year}{2015}
+  \endentry
+
+  \entry{stutzman2012antenna}{book}{}
+    \name{author}{2}{}{%
+      {{hash=SWL}{%
+         family={Stutzman},
+         familyi={S\bibinitperiod},
+         given={Warren\bibnamedelima L},
+         giveni={W\bibinitperiod\bibinitdelim L\bibinitperiod},
+      }}%
+      {{hash=TGA}{%
+         family={Thiele},
+         familyi={T\bibinitperiod},
+         given={Gary\bibnamedelima A},
+         giveni={G\bibinitperiod\bibinitdelim A\bibinitperiod},
+      }}%
+    }
+    \list{publisher}{1}{%
+      {John Wiley \& Sons}%
+    }
+    \strng{namehash}{SWLTGA1}
+    \strng{fullhash}{SWLTGA1}
+    \field{labelnamesource}{author}
+    \field{labeltitlesource}{title}
+    \field{title}{Antenna theory and design}
+    \field{year}{2012}
+  \endentry
+\enddatalist
+\endinput

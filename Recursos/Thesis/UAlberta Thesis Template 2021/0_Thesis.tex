@@ -1,0 +1,143 @@
+% INCLUDES PACKAGES:
+% array, nomencl, etoolbox, lipsum, xmpincl, xcolor, graphicx, tabularx, 
+%  makecell, subcaption, rotating, booktabs, multicol, multirow, amsmath, 
+%   amsfonts, amssymb, pdflscape, textcomp, longtable, listings, pdfpages
+%    xparse, ifthen, hyphenat, hyperref, cleveref, inputenc
+% 
+% For a full description of each of the included packages please read the 
+%  packages file.
+
+%LIST OF DEFINED SYMBOLS
+        %\regTM                %Registered Trademark\regTM
+        %\nonTM                %Unregistered Trademark
+        %\cRight{}             %Copyright
+        %\cLeft{}              %Copyleft
+        %\degrees{}            %Degrees
+        %\hyph{}               %Hyphen
+        %\latin{<text here>}   %Latin
+        %\etal{}               %et al.
+        %\etc{}                %etc
+        %\eg{}                 %e.g.
+        %\ie{}                 %i.e.
+        %\Kevlar{}             %Kevlar
+        %\Matlab{}             %Matlab
+
+%LIST OF AVAILABLE THEOREM ENVIRONMENTS
+        % theorem, algorithm, axium, case, claim, conclusion, condition, 
+        % conjecture, corollary, criterion, definition, example, exercise, 
+        % lemma, notation, problem, proposition, remark, solution, summary
+        %
+        % To use:
+        % \begin{<theorem name>}
+        %   <YOUR TEXT HERE>
+        % \end{<theorem name>}
+        
+%LIST OF USEFUL COMMANDS:
+        %\comment{}            %Nothing inside the braces will be printed
+        %\nonumeq{}            %Un-numbered, centered equation.
+        %\numeq{}{label}       %Numbered, centered equation.
+        %\brackS{}             %Surrounds the input with []
+        %\brackR{}             %Surrounds the input with ()
+        %\brackC{}             %Surrounds the input with {}
+
+% INCLUDING CODE
+	   % To include code or code snippets in your thesis, the package listings is used.
+	   % A number of predefined code highlighting schemes are included in the file
+	   %   listingCodeFormatting.tex including:
+	   %   Matlab, C/C++, VB/VBA, and XML 
+	   %
+	   % Examples of how to include code are shown in Appendix C
+
+\immediate\write18{makeindex \jobname.nlo -s nomencl.ist -o \jobname.nls}
+% Write command to allow the nomenclature to be generated properly.
+
+
+\documentclass[pdfa]{ualberta}
+% OPTIONS FOR ualberta.cls:
+% chapterbib - \printreferences now prints references at the end of a chapter
+% 
+% pdfa - to convert the pdfa to PDF/A format
+% 
+% oneside - Standard for submitting to FGSR.
+% 
+% twoside - If you want to print your thesis double sided.
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                  TITLE PAGE AND FRONTMATTER INFORMATION                      %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% TITLE PAGE INFO
+ \title{This is the thesis title this is the thesis title this is the theis title this is the theis title.}              % Title of your Thesis
+ \author{John Smith}        % Your Full Name
+ \degree{\PhD}                     % \MSc or \PhD
+ \specialization{CONTROL SYSTEMS AND ROBOTICS}                 % Leave blank if none
+ \department{Electrical and Computer Engineering}   % Department you are completing your degree
+ \convocationdate{Spring 2020}       % Term (Fall, Winter, Spring)
+
+% Don't forget to edit ualberta.xmpdata with the same metadata for the PDF/A
+
+
+\include{./Preample/0_1_Abstract}
+\include{./Preample/0_2_Preface}
+\include{./Preample/0_3_Qoute}
+\include{./Preample/0_4_Dedication}
+\include{./Preample/0_5_Ack}
+
+% NOMENCLATURE
+\include{./Preample/0_6_nomenclature}
+
+
+% BIBLIOGRAPHY LOCATION
+ % .  - This folder
+ % .. - Up one Folder
+ \addbibresource{./References/references.bib}
+
+%Image paths
+ \graphicspath{ {./Chapters/Ch_1_Intro/images/}{./Chapters/Ch_2_Background/images/}{./Chapters/Ch_3/images/}{./Chapters/Ch_4/images/}{./Chapters/Ch_4/tempimages/}{./Chapters/Ch_x_Conlusion_FutureWork/images/}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                              BEGIN DOCUMENT                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+ \maketitle                    % Creates the title page
+ \makeabstract                 % Creates the abstract
+\makepreface                  % Uncomment line to add Preface Page
+ \makequote                   % Uncomment line to add Quote Page
+ \makededication              % Uncomment line to add Dedication Page
+ \acknowledgements             % Uncomment line to add Acknowledgements
+ \tableofcontents              % Create the Table of Contents
+ \listoftables                 % Uncomment line if you have tables
+ \listoffigures                % Uncomment line if you have figures
+%  \listofplates                 % Uncomment line if you have plates (photographs)
+%  \listofsymbols               % Uncomment if you have a List of Symbols (Nomenclature)
+ \abbreviations               % Uncomment if you have a List of Acronyms
+ \glsaddall                    % Required for List of Acronyms and Glossary (DO NOT COMMENT)
+ %\generateglossary            % Uncomment if you have Glossary
+ \bodyoftext                   % Switches the style of the document to that required for the body
+
+% SET DOCUMENT SPACING
+ %\onehalfspacing        
+%  \truedoublespacing
+ %\triplespacing
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                           CHAPTERS                              %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{./Chapters/Ch_1_Intro/Ch_1_Intro}
+\include{./Chapters/Ch_2_Background/Ch_2_Background}
+\include{./Chapters/Ch_3/Ch_3}
+\include{./Chapters/Ch_4/Ch_4}
+\include{./Chapters/Ch_x_Conlusion_FutureWork/Ch_x_future}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                 BIBLIOGRAPHY                                 %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\nocite{*}  % Uncomment if you have a bibliography with work read but not cited
+% \printbibliography[heading=bibintoc]
+\printbibliography[heading=bibintoc]
+\bigskip
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%                                  APPENDICES                                  %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{Appendices/Appendix}
+
+\end{document}

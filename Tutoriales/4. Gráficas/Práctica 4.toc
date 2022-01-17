@@ -1,0 +1,7 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Incluir gráficas externas}{1}{}%
+\contentsline {section}{\numberline {2}Paquete graphicx}{2}{}%
+\contentsline {section}{\numberline {3}Objetos flotantes}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Paquetes float}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Paquete subfigure}{6}{}%
+\contentsline {section}{\numberline {4}Comando put}{6}{}%

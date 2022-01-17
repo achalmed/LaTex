@@ -1,0 +1,81 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\parindent=0cm %modificar tamaño de sangria 
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{E}{>{$}c<{$}}
+\setcounter{MaxMatrixCols}{40}
+\usepackage{bm}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Paquetes o configuración nueva 
+%---->%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[lmargin=2cm,rmargin=2cm,top=2.5cm,
+bottom=2cm]{geometry}
+\usepackage{fancyhdr}
+\pagestyle{fancy}
+\fancyhead{} % Eleminamos definiciones previas
+\fancyhead[C]{Titulo del articulo}
+\fancyhead[R]{\includegraphics[scale=0.03]{figuras/infinito}}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{Héctor Misael}
+\renewcommand{\headrulewidth}{0.9pt}
+\renewcommand{\footrulewidth}{0.5pt}
+%---->%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+
+\begin{titlepage}
+\begin{center}
+\vspace*{2\baselineskip}
+\hrule height 3pt
+\vspace*{0.5\baselineskip}
+{\Huge \textbf{Nombre de institución}}\\[0.1cm]
+{\large \textbf{CENTRO UNIVERSITARIO AL CUAL PERTENECEN}}
+\vspace*{0.5\baselineskip}
+\hrule
+\vspace*{7\baselineskip}
+\includegraphics[scale=0.15]{figuras/cuadro}
+\vspace*{2\baselineskip}
+
+\textbf{ÁLGEBRA, CÁLCULO DIFERENCIAL \\
+ejemplos y aplicaciones}
+\vfill
+HÉCTOR MISAEL BACILIO \\
+\today
+\end{center}
+\end{titlepage}
+
+%\renewcommand{\contentsname}{Contenido}
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+\setcounter{page}{1}
+
+\section{Introducción}
+\section{Bases}
+\subsection{Productos notables}
+\section{Cálculo diferencial}
+\subsection{Razón de cambio y límites}
+\subsection{Límites laterales y límites al infinito}
+\subsection{Continuidad}
+
+\newpage
+%\renewcommand{\refname}{Bibliografía}
+\begin{thebibliography}{99}
+\bibitem{Nombre1} Articulo o Libro 1, Autor 1, Año de referencia 1. 
+\bibitem{Nombre2} Articulo o Libro 2, Autor 2, Año de referencia 2. 
+\bibitem{Nombre3} Articulo o Libro 3, Autor 3, Año de referencia 3. 
+\bibitem{Nombre4} Articulo o Libro 4, Autor 4, Año de referencia 4. 
+\end{thebibliography}
+
+\end{document}

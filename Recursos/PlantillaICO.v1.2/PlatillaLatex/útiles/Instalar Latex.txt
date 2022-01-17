@@ -1,0 +1,4 @@
+Para utilizar el software Latex, descarga  la última versión de los siguientes programas e instala en el mismo orden:
+
+1 Miktex 	=> http://miktex.org/download
+2 Texmaker 	=> http://www.xm1math.net/texmaker/download.html

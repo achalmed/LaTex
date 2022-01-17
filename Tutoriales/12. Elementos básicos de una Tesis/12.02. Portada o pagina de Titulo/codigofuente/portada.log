@@ -1,0 +1,357 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.24)  29 SEP 2021 15:50
+entering extended mode
+**./portada.tex
+(portada.tex
+LaTeX2e <2021-06-01>
+L3 programming layer <2021-06-01>
+
+! LaTeX Error: Missing \begin{document}.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.1 \begin{center}
+                  
+You're in trouble here.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Overfull \hbox (20.0pt too wide) in paragraph at lines 1--1
+[] 
+ []
+
+! Undefined control sequence.
+l.5 \bf
+       \fontsize{19}{0}{\selectfont{UNIVERSIDAD DE GUADALAJARA}}\\[0.5cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <19> not available
+(Font)              size <17.28> substituted on input line 5.
+
+
+Overfull \hbox (114.6532pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/n/17.28 UNIVERSIDAD 
+ []
+
+
+Overfull \hbox (23.06508pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/n/17.28 DE 
+ []
+
+
+Overfull \hbox (87.39926pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/n/17.28 GUADALA- 
+ []
+
+
+Overfull \hbox (43.86632pt too wide) in paragraph at lines 5--5
+ \OT1/cmr/m/n/17.28 JARA 
+ []
+
+Missing character: There is no C in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no V in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no S in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no O in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no U in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no L in font nullfont!
+Missing character: There is no P in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no R in font nullfont!
+Missing character: There is no T in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no C in font nullfont!
+Missing character: There is no E in font nullfont!
+Missing character: There is no N in font nullfont!
+! Undefined control sequence.
+l.12 \bf
+        \fontsize{14}{0}{\selectfont{NOMBRE DE LA DIVISIÓN}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (64.41098pt too wide) in paragraph at lines 12--14
+ []\OT1/cmr/m/n/14.4 NOMBRE 
+ []
+
+
+Overfull \hbox (20.36145pt too wide) in paragraph at lines 12--14
+ \OT1/cmr/m/n/14.4 DE 
+ []
+
+
+Overfull \hbox (19.3798pt too wide) in paragraph at lines 12--14
+ \OT1/cmr/m/n/14.4 LA 
+ []
+
+
+Overfull \hbox (20.55478pt too wide) in paragraph at lines 12--14
+ \OT1/cmr/m/n/14.4 DI- 
+ []
+
+
+Overfull \hbox (50.11282pt too wide) in paragraph at lines 12--14
+ \OT1/cmr/m/n/14.4 VISI[]ON 
+ []
+
+! Undefined control sequence.
+l.18 \bf
+        \fontsize{11}{0}{\selectfont{NOMBRE DEL DEPARTAMENTO AL QUE PERTENEC...
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (50.0355pt too wide) in paragraph at lines 18--20
+ []\OT1/cmr/m/n/10.95 NOMBRE 
+ []
+
+
+Overfull \hbox (22.66045pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 DEL 
+ []
+
+
+Overfull \hbox (19.46667pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 DE- 
+ []
+
+
+Overfull \hbox (26.4625pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 PAR- 
+ []
+
+
+Overfull \hbox (18.85832pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 TA- 
+ []
+
+
+Overfull \hbox (42.12715pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 MENTO 
+ []
+
+
+Overfull \hbox (15.05627pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 AL 
+ []
+
+
+Overfull \hbox (24.18129pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 QUE 
+ []
+
+
+Overfull \hbox (76.65004pt too wide) in paragraph at lines 18--20
+ \OT1/cmr/m/n/10.95 PERTENECEN 
+ []
+
+! Undefined control sequence.
+l.22 \includegraphics
+                     [scale=0.2]{figuras/cuadro}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+Missing character: There is no [ in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no = in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no . in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no ] in font nullfont!
+Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no / in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no o in font nullfont!
+! Undefined control sequence.
+l.26 \bf
+        \fontsize{13}{0}{\selectfont{TITULO DE TESIS}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+LaTeX Font Warning: Font shape `OT1/cmr/m/n' in size <13> not available
+(Font)              size <12> substituted on input line 26.
+
+
+Overfull \hbox (46.49953pt too wide) in paragraph at lines 26--28
+ []\OT1/cmr/m/n/12 TITULO 
+ []
+
+
+Overfull \hbox (16.9679pt too wide) in paragraph at lines 26--28
+ \OT1/cmr/m/n/12 DE 
+ []
+
+
+Overfull \hbox (33.77466pt too wide) in paragraph at lines 26--28
+ \OT1/cmr/m/n/12 TESIS 
+ []
+
+! Undefined control sequence.
+l.32 \hfill\bf
+              \fontsize{14}{0}{\selectfont{Director de tesis: Nombre}}\\[0.2cm]
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (19.38477pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 Di- 
+ []
+
+
+Overfull \hbox (22.71637pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 rec- 
+ []
+
+
+Overfull \hbox (18.01643pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 tor 
+ []
+
+
+Overfull \hbox (14.09982pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 de 
+ []
+
+
+Overfull \hbox (30.70627pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 tesis: 
+ []
+
+
+Overfull \hbox (34.06961pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 Nom- 
+ []
+
+
+Overfull \hbox (19.58308pt too wide) in paragraph at lines 32--32
+ \OT1/cmr/m/n/14.4 bre 
+ []
+
+! Undefined control sequence.
+l.33 \hfill\bf
+              \fontsize{14}{0}{\selectfont{Tesista: Nombre}}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+
+Overfull \hbox (46.7644pt too wide) in paragraph at lines 33--35
+ \OT1/cmr/m/n/14.4 Tesista: 
+ []
+
+
+Overfull \hbox (34.06961pt too wide) in paragraph at lines 33--35
+ \OT1/cmr/m/n/14.4 Nom- 
+ []
+
+
+Overfull \hbox (19.58308pt too wide) in paragraph at lines 33--35
+ \OT1/cmr/m/n/14.4 bre 
+ []
+
+Missing character: There is no G in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no J in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no o in font nullfont!
+Missing character: There is no , in font nullfont!
+Missing character: There is no A in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no r in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no 2 in font nullfont!
+Missing character: There is no 0 in font nullfont!
+Missing character: There is no 1 in font nullfont!
+Missing character: There is no 7 in font nullfont!
+)
+! Emergency stop.
+<*> ./portada.tex
+                 
+*** (job aborted, no legal \end found)
+
+ 
+Here is how much of TeX's memory you used:
+ 30 strings out of 478826
+ 697 string characters out of 2857145
+ 294240 words of memory out of 3000000
+ 18070 multiletter control sequences out of 15000+600000
+ 404625 words of font info for 31 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 15i,1n,12p,121b,123s stack positions out of 5000i,500n,10000p,200000b,80000s
+!  ==> Fatal error occurred, no output PDF file produced!

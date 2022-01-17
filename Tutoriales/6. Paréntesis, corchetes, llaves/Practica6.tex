@@ -1,0 +1,114 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}% agregamos es-tabla
+\parindent=0cm %modificar tamaño de sangria 
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+%
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{E}{>{$}c<{$}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\title{Practica 6.\\ Paréntesis, corchetes y llaves}
+\author{Edison Achalma}
+\date{}
+\maketitle
+\tableofcontents
+
+\section{Símbolos de agrupación}
+
+\[
+w + ( \frac{d}{b+c} ) = (a+b+c) 
+\]
+
+\[
+w + \left( \frac{d}{b+c} \right)   = (a+b+c) 
+\]
+
+\[
+w + \left[ \frac{d}{b+c} \right]   = (a+b+c) 
+\]
+
+\[
+w + \left[ \frac{d}{b+c} \right.   = (a+b+c) 
+\]
+
+\[
+\left\lbrace 
+\frac{a+b}{c+d} 
+\right. 
+\]
+
+\begin{equation}
+\left( 
+\frac{a+b}{c+d}
+\right\rbrace 
+\end{equation}
+
+\begin{equation}
+\left\lbrace 
+\frac{a+b}{c+d}
+\right\rbrace 
+\end{equation}
+
+\begin{equation}
+\left( 
+\frac{a+b}{c+d}
+\right)^{5} 
+\end{equation}
+
+%Se puso un delimitador, en ves de un punto una barra.
+\begin{equation}
+\left. 
+\frac{dy}{dx}
+\right|_{x=1} = x+1
+\end{equation}
+
+\section{Tamaño manual}
+
+\[
+( \sum_{i=1}^{n} )
+\]
+
+\[
+\bigl(
+\sum_{i=1}^{n} 
+\bigr)
+\]
+
+\[
+\Bigl(
+\sum_{i=1}^{n} 
+\Bigr)
+\]
+
+\[
+\biggl(
+\sum_{i=1}^{n} 
+\biggr)
+\]
+
+\[
+\Biggl(
+\sum_{i=1}^{n} 
+\Biggr)
+\]
+
+
+\[
+\Bigl(
+(a+b)^2 + c
+\Bigr)
+\]
+
+
+\end{document}

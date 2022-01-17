@@ -1,0 +1,147 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+\usepackage[lmargin=2cm,rmargin=2cm,top=1.5cm,
+bottom=2cm]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}
+\parindent=0cm %modificar tamaño de sangria 
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{E}{>{$}c<{$}}
+\setcounter{MaxMatrixCols}{40}
+\usepackage{bm}
+\usepackage{fancyhdr}
+
+\pagestyle{fancy}
+\fancyhead{}
+\fancyhead[C]{Elementos básicos para escribir un artículo (paper)}
+\fancyfoot{}
+\fancyfoot[R]{\thepage}
+\fancyfoot[L]{Edison Achalma}
+\renewcommand{\headrulewidth}{0pt} %sin línea en la parte superior
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Paquetes o configuración nueva 
+%---->%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage[sc]{mathpazo} %Cambiamos tipo de letra
+\usepackage{multicol} %Paquete para que tenga dos columnas
+\usepackage{titling} %Paquete para que la numeración de las secciones esten en números romanos.
+\usepackage{titlesec}
+\usepackage[colorlinks = true,
+           linkcolor = blue,
+           urlcolor = black,
+           citecolor = blue ]{hyperref} %Paquete para hipervínculos como correo
+           
+\renewcommand{\thesection}{\Roman{section}} %Las secciones estaran con numeración romana MAYUSCULA
+\renewcommand{\thesubsection}{\roman{subsection}}%Las subsecciones estaran con numeración romana MINUSCULA
+\titleformat{\section}[block]{\bfseries\centering}{\thesection.}{1mm}{} %Las secciones son en negrita y centrada, separada de numeración de 1mm
+\titleformat{\subsection}[block]{\bfseries\centering}{\thesubsection.}{1mm}{} %Las subsecciones son en negrita y centrada, separada de numeración de 1mm
+
+%% Titulo del articulo
+%%
+%%------------------------------------------------
+\setlength{\droptitle}{-4.5\baselineskip} %Comando para que el título este mas arriba
+\title{{\Huge\textbf{Segundo Ejemplo}}}
+\author{\textsc{Elmer Edison Achalma Mendoza}
+\thanks{Información relacionada con el autor ...}\\[0.2cm]
+\normalsize Universidad Nacional San Cristóbal de Huamanga \\
+\normalsize 
+\href{mailto:achalmaedison@outlook.com}{achalmaedison@outlook.com}
+}
+%---->%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\begin{document}
+\maketitle %Muestra el título
+\renewcommand{\contentsname}{Contenido} %Renombramos Índice con Contenido
+\tableofcontents
+
+\begin{abstract} %Este es el resumen
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\end{abstract}
+
+\begin{multicols}{2} %Entorno para usar el paquete de multiples columnas.
+\section{Primera sección}
+Se presenta una introducción a los siguientes\footnote{primera nota} temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término. %Colocamos notas en el pie de página con footnote
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\subsection{Primera subsección}
+\begin{figure*}[ht] %El * es para que la figura abarque las dos columnas, ht hace que se vaya a la siguiente pagina en la parte superior.
+\centering
+\includegraphics[scale=0.5]{figuras/fig3d_3}
+\caption{primer figura*}
+\end{figure*}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\section{Segunda sección}
+\begin{figure}[H]
+\centering
+\includegraphics[scale=0.5]{figuras/fig3d_3}
+\caption{primer figura}
+\end{figure}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\section{Tercera sección}
+Se presenta una introducción\footnote{segunda nota} a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\subsection{Segunda subsección}
+%Subfiguras
+\begin{figure*}[hb] 
+\centering
+\subfigure[uno]{\includegraphics[scale=0.4]{figuras/fig3d_1}} \hspace{0.3cm}
+\subfigure[dos]{\includegraphics[scale=0.4]{figuras/fig3d_2}}
+\caption{Grafícas multiples*}
+\end{figure*}
+
+\begin{table*}[ht]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+elemento uno & elemento dos & elemento tres \\ \hline
+elemento uno & elemento dos & elemento tres \\ \hline
+elemento uno & elemento dos & elemento tres \\ \hline
+\end{tabular}
+\caption{figura en ancho de pagina}
+\end{table*}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|c|}
+\hline
+elemento uno & elemento dos & elemento tres \\ \hline
+elemento uno & elemento dos & elemento tres \\ \hline
+elemento uno & elemento dos & elemento tres \\ \hline
+\end{tabular}
+\caption{figura en una columna}
+\end{table}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\subsection{Tercera subsección}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\subsection{Cuarta subsección}
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+Se presenta una introducción a los siguientes temas El producto de dos binomios conjugados es igual al cuadrado de el primer término menos el cuadrado del segundo término.
+\end{multicols}
+\newpage
+\begin{thebibliography}{99}
+\bibitem{Nombre1} Articulo o libro 1, Autor 1, Año de referencia 1.
+\bibitem{Nombre2} Articulo o libro 1, Autor 1, Año de referencia 1.
+\bibitem{Nombre3} Articulo o libro 1, Autor 1, Año de referencia 1.
+\bibitem{Nombre4} Articulo o libro 1, Autor 1, Año de referencia 1.
+\bibitem{Nombre5} Articulo o libro 1, Autor 1, Año de referencia 1.
+\bibitem{Nombre6} Articulo o libro 1, Autor 1, Año de referencia 1.
+\end{thebibliography}
+\end{document}

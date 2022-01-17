@@ -1,0 +1,19 @@
+\babel@toc {spanish}{}
+\contentsline {chapter}{\numberline {1}Cálculo diferencial}{1}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Funciones}{1}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Límites}{1}{section.1.2}%
+\contentsline {section}{\numberline {1.3}Continuidad}{1}{section.1.3}%
+\contentsline {section}{\numberline {1.4}Derivadas}{2}{section.1.4}%
+\contentsline {section}{\numberline {1.5}Regla de la cadena}{2}{section.1.5}%
+\contentsline {chapter}{\numberline {2}Álgebra}{3}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Factorización}{3}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Binomios conjugados}{3}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Exponentes}{3}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Raíces}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}División sintética}{4}{section.2.5}%
+\contentsline {chapter}{\numberline {3}Geometría modificada}{5}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Triángulos}{5}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Linea recta}{5}{section.3.2}%
+\contentsline {chapter}{\numberline {4}Álgebra lineal}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Matrices}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Sistemas de ecuaciones}{7}{section.4.2}%

@@ -1,0 +1,60 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish,es-tabla]{babel}% agregamos es-tabla
+\parindent=0cm %modificar tamaño de sangria 
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\usepackage{graphicx}
+\usepackage{epstopdf}
+\usepackage{float}
+\usepackage{subfigure}
+\usepackage{array}
+\usepackage{longtable}
+\newcolumntype{E}{>{$}c<{$}}
+\setcounter{MaxMatrixCols}{40}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Paquetes o configuración nueva %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\usepackage{bm}
+%
+\begin{document}
+\title{Practica 8.\\ Texto matemático en negritas}
+\author{Héctor Misael}
+\date{}
+\maketitle
+\tableofcontents
+
+\section{Negritas}
+
+\textbf{Esto} esta en negritas $ \boldsymbol{a+b} $
+
+\[
+a+b
+\]
+
+\[
+\boldsymbol{
+a+b
+}
+\]
+
+\[
+\bm{a+b}
+\]
+
+\begin{table}[H]
+\begin{tabular}{E|E|E}
+\text{Texto normal} & \text{Usando boldsymbol} & \text{Usando bm} \\
+x+1 & \boldsymbol{x+1} & \bm{x+1} \\
+x^{2} & \boldsymbol{x^{2}} & \bm{x^{2}} \\
+\sum x+2 &  \boldsymbol{\sum x+2} & \bm{\sum x+2} \\
+\tan x &  \boldsymbol{\tan x} & \bm{\tan x} \\
+\end{tabular}
+\end{table}
+
+
+\end{document}

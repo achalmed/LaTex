@@ -1,0 +1,71 @@
+\documentclass[10pt,]{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\usepackage{graphicx}
+%\usepackage[round]{natbib}
+
+\input{perifericos/configuracionUCM}
+
+\author[Nombre corto]{Nombre alumno \\ \tiny correo u otro}
+\title[Titulo corto]{Título del proyecto de titulación}
+\subtitle{Exámen de titulación}
+\institute[ICO - UCM]{Escuela de Ingeniería en Construcción\\Universidad Católica del Maule}
+\date[]{\today}
+
+
+% El siguiente código es para generar índice por cada sección, ver pdf.
+% \AtBeginSection[]
+% {
+% 	\begin{frame}{Contenido}2% \tableofcontents[currentsection]
+% 	\end{frame}
+% }
+
+
+\begin{document}
+
+	\input{perifericos/portada}
+
+\section{Título de la sección}
+
+	\begin{frame}{Título de la diapositiva}
+		Agregar texto...
+	\end{frame}
+
+	\begin{frame}{Título segunda lámina}{Se puede agregar un subtítulo si es requerido}
+		Agregar texto...		
+	\end{frame}
+
+
+\section{Título de la segunda sección}
+
+	\begin{frame}{Título de la tercera diapositiva}
+		\begin{block}{Objetivos}
+			\begin{enumerate}
+				\item<1-> Objetivo 1 %El <> y el 1- significa que se mostrará de la lámina 1 en adelante 
+				\item<2-> Objetivo 2 %Otra opción sería <1> y solo se mostraría en la lámina 1
+				\item<3-> Objetivo 3 %Otra opción más, es <1-2> solo se mostrará en la lámina 1 y 2
+			\end{enumerate} 
+		\end{block}
+	\end{frame}
+
+% Otro ejemplo de lamina
+	\begin{frame}{Componentes del hormigón}{Agua}
+		\begin{description}
+			\item[Agua]El  agua  para  el  uso  de  hormigones  debe  cumplir  con  la  Norma  NCh1498.  El  agua  potable  						cumple con  estas exigencias  \cite{solminihac2008}.
+		\end{description}
+	
+		\begin{center}
+			\includegraphics[width=0.85\linewidth]{imagenes/agua} 
+		\end{center}
+	\end{frame}
+
+
+\section{Bibliografía}
+	
+	\begin{frame}{Bibliografía}
+		\bibliographystyle{apalike}
+		\bibliography{perifericos/bibliografia}
+	\end{frame}
+
+
+\end{document}

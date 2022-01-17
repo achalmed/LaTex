@@ -1,0 +1,48 @@
+\documentclass[12pt]{article}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Preambulo
+%%
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[spanish]{babel}
+\parindent = 0cm
+%%
+\usepackage{amsmath}
+\usepackage{amssymb,amsfonts,latexsym,cancel}
+\begin{document}
+\title{Practica 3.\\ Texto en modo matemático }
+\author{Héctor Misael}
+\date{}
+\maketitle
+\tableofcontents
+
+\section{Texto en modo matemático}
+Básicamente existen dos formas de colocar texto en modo matemático en \LaTeX, una de ellas es colocar formulas junto al texto, y la otra es colocarla de forma independiente.
+\subsection{Fórmulas junto al texto}
+\textbf{Cuadrado de un binomio}. Sea. $ (a+b)^{2} = (a+b)(a+b) $ donde $a$ y $b$ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto $ (a+b)^{2} = a^{2} +2ab +b^{2} $.
+\subsection{Fórmulas independientes}
+\textbf{Cuadrado de un binomio}. Sea. 
+\[
+ (a+b)^{2} = (a+b)(a+b) 
+\]
+ donde $a$ y $b$ representan números algebraicos cualesquiera, positivos o negativos. Por lo tanto 
+\[ 
+  (a+b)^{2} = a^{2} +2ab +b^{2} .
+\]
+
+\begin{equation*}
+ (a+b)^{2} = a^{2} +2ab +b^{2} .
+\end{equation*}
+\subsection{Numeración de fórmulas y referencias}
+El comando para numerar una formula es 
+\begin{equation}\label{binomio}
+ (a+b)^{2} = a^{2} +2ab +b^{2} .
+\end{equation}
+
+\begin{equation}\label{binomio2}
+ (x+y)^{2} = x^{2} +2xy +y^{2} .
+\end{equation}
+Ahora usando la ecuación \ref{binomio} y \ref{binomio2}. \\
+Ahora usando la ecuación \eqref{binomio} y \eqref{binomio2}. 
+
+\end{document}

@@ -1,0 +1,36 @@
+\documentclass[12pt,oneside]{book}
+%
+\input{codigofuente/preambulo}
+%
+\makeatletter
+\let\ps@plain\ps@empty
+\makeatother
+%
+\pagestyle{fancy}
+\fancyfoot{}
+\fancyhead{}
+\fancyhead[C]{\scriptsize \leftmark}
+\fancyfoot[C]{\scriptsize \rightmark}
+\fancyhead[R]{\thepage}
+\renewcommand{\headrulewidth}{0.8pt}
+\renewcommand{\footrulewidth}{0.5pt}
+\begin{document}
+\frontmatter
+\include{codigofuente/portada}
+\include{codigofuente/agradecimientos}
+\renewcommand{\contentsname}{Contenido}
+\tableofcontents
+
+\mainmatter 
+\include{codigofuente/capitulo1}
+\include{codigofuente/capitulo2}
+\include{codigofuente/capitulo3}
+\include{codigofuente/capitulo4}
+
+\begin{thebibliography}{1}
+\bibitem{Thomas} Thomas, G.B. and Finney, R.L. and Weir, M.D, \emph{Cálculo: una variable}, 1998. Pearson Educación. 
+\bibitem{Larson} Larson, R.E.H, \emph{Cálculo}, 1995. McGraw-Hill.
+\bibitem{Stewart} Stewart, J, \emph{Calculo: Trascendentes Tempranas}, 2002. Cengage Learning Editores.
+\end{thebibliography}
+
+\end{document}

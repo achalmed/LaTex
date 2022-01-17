@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {1}Incluir tablas básicas}{1}{}%
+\contentsline {subsection}{\numberline {1.1}Entorno table - tablas con lineas-}{2}{}%
+\contentsline {subsection}{\numberline {1.2}Múltiples columnas}{3}{}%
+\contentsline {section}{\numberline {2}Tablas con párrafos}{4}{}%
+\contentsline {subsection}{\numberline {2.1}Escalar una tabla}{4}{}%
+\contentsline {section}{\numberline {3}Expresiones matemáticas en tablas}{5}{}%
+\contentsline {section}{\numberline {4}Tablas largas, paquete longtable}{5}{}%

@@ -1,0 +1,8 @@
+\babel@toc {spanish}{}
+\contentsline {section}{\numberline {I}Primera sección}{1}{section.1}%
+\contentsline {subsection}{\numberline {\es@scroman {i}}Primera subsección}{2}{subsection.1.1}%
+\contentsline {section}{\numberline {II}Segunda sección}{2}{section.2}%
+\contentsline {section}{\numberline {III}Tercera sección}{2}{section.3}%
+\contentsline {subsection}{\numberline {\es@scroman {i}}Segunda subsección}{2}{subsection.3.1}%
+\contentsline {subsection}{\numberline {\es@scroman {ii}}Tercera subsección}{3}{subsection.3.2}%
+\contentsline {subsection}{\numberline {\es@scroman {iii}}Cuarta subsección}{3}{subsection.3.3}%

@@ -1,0 +1,154 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%                                                                                       %%%%%%%%%%%
+%%%% Plantilla de trabajo de titulación para la Carrera de Ingeniería en Construcción -UCM %%%%%%%%%%%
+%%%% Elaborada por Carlos Palacios Rojas, Académico Dep Obras Civiles                      %%%%%%%%%%%
+%%%% Versión 1.2.1 - 12 de septiembre de 2016                                              %%%%%%%%%%%
+%%%% Las líneas que comienzan por "%" son comentarios y pueden ser eliminadas.             %%%%%%%%%%%
+%%%% En caso de requerir más información del uso de los paquetes buscar en Internet.       %%%%%%%%%%%
+%%%%                                                                                       %%%%%%%%%%%
+%%%% Recomiendo el siguiente libro para consultas sobre Latex                              %%%%%%%%%%%
+%%%% Mora, W., & Borbón, A. (2014). Edición de textos cientıficos con LATEX. 2da edición.  %%%%%%%%%%%
+%%%%																					   %%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\documentclass[10pt,letterpaper]{report}
+
+	\input{perifericos/configuracion.ico.ucm}
+
+				
+\begin{document}
+
+	\input{perifericos/portada}
+	\input{perifericos/preambulo} % Dedicatoria, agradecimientos y resumen
+
+\chapter{Introducción}
+
+	\section{Descripción del problema}
+
+	
+		\subsection{Sub sección}
+			Sub sección de la \textit{Descripción del problema}
+ 
+	\section{Objetivo general}
+
+	\section{Objetivos específicos}
+
+	Los objetivos específicos que contribuirán a desarrollar el \textit{objetivo general} del trabajo son los siguientes:
+
+	\begin{itemize}
+		\item Desarrollar...
+		\item Determinar...
+		\item Etc..
+	\end{itemize}
+
+	\section{Contribución del trabajo de titulación}
+
+
+
+\chapter{Marco teórico}	
+	
+	\cite{solminihac2005} 
+	
+	%ejemplo de cita 'En el texto' sin parentesis, para citar con parentesis usar \citep{}
+
+
+\chapter{Metodología}
+
+
+	\section{Título primera sección capítulo}
+	
+		% Para trabajar con tablas sugiero utilizar Macro Excel2Latex (ver carpeta útiles)
+		% La tabla siguiente tiene dos columnas y se indican con '{l c}'
+
+		\begin{table}[h]
+			\caption{Título de la tabla.} 
+			\begin{center} % tabla centrada en el texto
+				\begin{tabular}{l c} %l -> left, c -> center, r -> right
+					\hline % línea horizontal
+					\hline 
+					Título 1 & Título 2 \\  % Fila de encabezados 
+					\hline
+					Cuadro 1 & Cuadro 2 \\  % (\\ indica el final de la línea)
+					Cuadro 3 & Cuadro 4 \\
+					\hline
+					\hline
+				\end{tabular}
+			\label{tablaUno}
+	     % label: etiqueta tabla, sirve para ref. cruzadas, ver video: 
+    	 % https://www.youtube.com/watch?v=ldU2mEWAeh4
+
+			\end{center}
+		\end{table}
+
+		La Tabla \ref{tablaUno} ejemplifica el uso de tablas en \LaTeX. \citep{solminihac2005} % ej. de cita entre paréntesis.
+
+
+	\subsection{Subtítulo.}
+
+
+		\begin{figure}[h]
+			\centering
+			\includegraphics[scale=0.5]{imagenes/ASTM_C39_image1.jpg}
+			\caption{Probeta hormigón (Autor, año)}
+			\label{probetaHormigon} 
+			% Label: es para realizar referencias cruzadas, 
+			% notar que se escribe todo junto y sin acentos.
+		\end{figure}
+
+	La Figura \ref{probetaHormigon} Muestra ... (Explicar las figuras. Notar que la figura fue
+	citada con referencia cruzada y la numeración es automática) 
+	
+	%% Ver video referencias cruzadas: https://www.youtube.com/watch?v=ldU2mEWAeh4
+
+
+\chapter{Resultados.} 
+
+	
+	\section{Ejemplo de titulo 2.}
+		
+		\subsection{Ejemplo de titulo 3.}
+			
+			\subsubsection{Ejemplo de titulo 4 (no numerado).}
+
+				\paragraph{Ejemplo de título 5:}
+
+								
+	\section{Discusión de resultados.}
+
+
+\chapter{Conclusiones}
+
+
+
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Bibliografía %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+	
+	% Para aprender a usar la bibliografía ver el siguiente video:
+ 	% https://www.youtube.com/watch?v=MnL5dI41IOA
+
+	% No modificar esta sección
+ 
+	\renewcommand{\refname}{Bibliografía} % Bibliografía en español
+	\addcontentsline{toc}{chapter}{Bibliografía} % Agrega la bibliografía al Índice.
+	\bibliographystyle{apalike} % formato APA 
+
+	\bibliography{perifericos/bibliografia} 
+
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% Anexos o apéndices %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+	% El siguiente archivo conntiene los apéndices
+	% Está en un archivo diferente para que el presente archivo sea menos extenso.
+	% En caso de no existir anexos simplemente eliminar o anteponer '%'
+	\input{perifericos/apendices.tex}
+
+\end{document}
